@@ -5,6 +5,7 @@ import Aclogonextarrow from '../components/Aclogonextarrow';
 import Collabrative from '../components/Collabrative';
 import Studentprogress from '../components/Studentprogress';
 import Createtodolist from '../components/Createtodolist';
+import Spreadsheet from '../components/Spreadsheet';
 import Navbar from '../components/Navbar';
 
 
@@ -28,6 +29,7 @@ export default function HomePage() {
       <Collabrative/>
       <Studentprogress/>
       <Createtodolist/> */}
+      <Spreadsheet/>
       
     </div>
   </div>
