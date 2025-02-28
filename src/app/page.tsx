@@ -29,7 +29,7 @@ export default function HomePage() {
       <Collabrative/>
       <Studentprogress/>
       <Createtodolist/> */}
-      {/* <Spreadsheet/> */}
+      <Spreadsheet/>
       
     </div>
   </div>
