@@ -12,7 +12,7 @@ export default function Carousel() {
     if (newTask.trim() !== "") {
       setTasks([...tasks, { text: newTask, completed: false }]);
       setNewTask("");
-      // Move to the To-Do List slide after adding a task
+
       const todoListSlideIndex = slides.findIndex((slide) => slide.id === 7);
       setCurrentIndex(todoListSlideIndex);
     }
