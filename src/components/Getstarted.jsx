@@ -199,7 +199,7 @@ export default function Carousel() {
               onClick={addTask}
               className="bg-purple-800 text-white p-2 rounded-r-md flex items-center"
             >
-              <PlusCircle size={20} />
+              <PlusCircle size={20}  />
               <span className="ml-1">Add</span>
             </button>
           </div>
@@ -226,7 +226,7 @@ export default function Carousel() {
             <span>Next</span> <MoveRight size={20} />
           </button>
         </div>
-        <div className="absolute bottom-1 flex gap-2">
+        <div className="absolute bottom-1 flex gap-2 pb-4">
           {slides.map((_, index) => (
             <button
               key={index}
